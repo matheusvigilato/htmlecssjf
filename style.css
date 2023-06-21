@@ -75,3 +75,41 @@ body{
     align-items: center;
     margin: 0 10em;
 }
+
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao-texto{
+    color: var(--cinza-secundario);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.rodape-texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista-link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 14px;
+}
+.lista-link a:hover{
+    color: var(--botao-azul);
+}
